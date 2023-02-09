@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.width-85 {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.bg {
+    background: url(./images/slide-v1-1.jpg);
+    filter: grayscale(0);
+}
+
+.slider-anime {
+    animation-name: slider;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slider {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.03);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
