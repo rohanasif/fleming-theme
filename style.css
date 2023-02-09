@@ -16,7 +16,7 @@
 
 .slider-anime {
     animation-name: slider;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
@@ -32,4 +32,12 @@
     100% {
         transform: scale(1);
     }
+}
+
+.drop {
+    visibility: hidden;
+}
+
+.main-li:hover .drop {
+    visibility: visible;
 }
