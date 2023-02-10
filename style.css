@@ -38,6 +38,10 @@
     visibility: hidden;
 }
 
+.main-li:hover {
+    cursor: pointer;
+}
+
 .main-li:hover .drop {
     visibility: visible;
 }
