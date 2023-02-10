@@ -41,3 +41,19 @@
 .main-li:hover .drop {
     visibility: visible;
 }
+
+.main-li::after {
+    transition-duration: 0.8s;
+    z-index: -1;
+    content: "";
+    top: -24px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background: #42424A;
+}
+
+.main-li:hover::after {
+    height: 100%;
+}
